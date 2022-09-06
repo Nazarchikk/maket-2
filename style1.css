@@ -1,0 +1,130 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+body{
+    margin: 0;
+    width: 1600px;
+}
+.conteiner{
+    display: flex;
+    justify-content: flex-start;
+}
+.page-body{
+    height: 80px;
+}
+.logo{
+    margin-left: 215px;
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+.web{
+    font-size: 26px;
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+}
+.stuidio{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+.ul-header{
+    display: flex;
+    font-size: 14px;
+    margin-left: 93px;
+    margin-top: 32px;
+}
+.ul-header-contact{
+    display: flex;
+    font-size: 14px;
+    margin-left: 335px;
+    margin-top: 32px;
+
+}
+.ul-header a{
+    color: #212121;
+    margin-right: 55px;
+}
+.ul-header-contact a{
+    color: #757575;
+    margin-right: 50px;
+}
+.ul-header a:hover{
+    color: #2196F3;
+}
+.ul-header-contact a:hover{
+    color: #2196F3;
+}
+.nav-2{
+    margin-top: 94px;
+}
+.main-nav-ul{
+    display: flex;
+    justify-content: center;
+}
+.main-nav-items{
+    width: 130px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li1-a{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+}
+footer{
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    padding-top: 60px;
+}
+.logo-f{
+    margin-left: 215px;
+}
+.web-1{
+    font-size: 26px;
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+}
+.stuidio-1{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+.ul-footer li:first-child{
+    margin-top: 20px;
+    color: white;
+}
+.ul-footer li{
+    margin: 9px 0 0 215px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+}
+.misto-footer{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;   
+}
