@@ -73,7 +73,7 @@ body{
 .section1{
     width: 1600px;
     height: 600px;
-    background-color:#2F303A;
+    background-image: url(./Img\ копія.png);
 }
 .section1 h1{
     color: white;
@@ -198,7 +198,11 @@ footer{
 .ul-footer li{
     margin: 9px 0 0 215px;
     color: #757575;
+    font-weight: 400;
+    font-size: 14px;
 }
 .misto-footer{
     color: white;
+    font-weight: 400;
+    font-size: 14px;   
 }
