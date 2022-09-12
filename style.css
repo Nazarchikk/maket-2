@@ -73,7 +73,7 @@ body{
 .section1{
     width: 1600px;
     height: 600px;
-    background-image: url(./Img\ копія.png);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url(./Img\ копія.png);
 }
 .section1 h1{
     color: white;
