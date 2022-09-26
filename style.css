@@ -94,12 +94,25 @@ body{
 }
 .ul-section2 li{
     width: 270px;
-    height: 91px;
+    height: 251px;
     display: inline-block;
     margin-left: 30px;
 }
-.ul-section2 h4{
+.div-img-section2{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
     margin-top: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-ul-section2{
+    width: 70px;
+    height: 70px;
+}
+.ul-section2 h4{
+    margin-top: 30px;
     font-weight: 700;
     font-size: 14px;
     color: #212121;
