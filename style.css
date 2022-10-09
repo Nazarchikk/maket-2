@@ -66,22 +66,16 @@ body{
 .ul-header-contact li{
     height: 16px;
 }
-.ull2{
-    text-align: center;
-}
 .header{
     color: #757575;
     margin-right: 50px;
 }
-
-.header:hover{
-    color: #2196F3;
-}
 .svg-header{
     margin-right: 10px;
 }
-.svg-header:hover{
+.adc:hover > a{
     fill: #2196F3;
+    color: #2196F3;
 }
 .section1{
     width: 1600px;
@@ -238,7 +232,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.section4-ul li{
+.add{
     width: 170px;
     height: 90px;
     border: 2px solid #AFB1B8;
@@ -254,7 +248,7 @@ body{
 .img-section4:hover{
     fill: #2196F3;
 }
-.section4-ul li:hover{
+.add:hover{
     border-color: #2196F3;
 }
 footer{
