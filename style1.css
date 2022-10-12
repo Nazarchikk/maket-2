@@ -18,19 +18,23 @@ ul {
 }
 body{
     margin: 0;
-    width: 1600px;
+    width: 480px;
+}
+.visuali_hidden{
+    display: none;
 }
 .conteiner{
     display: flex;
     justify-content: flex-start;
 }
 .page-body{
-    height: 80px;
+    height: 60px;
 }
 .logo{
-    margin-left: 215px;
-    justify-content: flex-start;
-    margin-top: 24px;
+    width: 134px;
+    height: 28px;  
+    margin-left: 15px;
+    margin-top: 16px;
 }
 .web{
     font-size: 26px;
@@ -43,44 +47,37 @@ body{
     font-size: 26px;
     color: black;
 }
-.ul-header{
+.logo2{
+    width: 40px;
+    height: 40px;
     display: flex;
-    font-size: 14px;
-    margin-left: 93px;
-    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 10px 276px;
 }
-.ul-header-contact{
-    display: flex;
-    font-size: 14px;
-    margin-left: 335px;
-    margin-top: 32px;
+.menu-logo-1{
+    width: 24px;
+    height: 16px;
+    text-decoration: none;
+    color: black;
+}
 
-}
-.ul-header a{
-    color: #212121;
-    margin-right: 55px;
-}
-.ul-header-contact a{
-    color: #757575;
-    margin-right: 50px;
-}
-.ul-header a:hover{
-    color: #2196F3;
-}
-.ul-header-contact a:hover{
-    color: #2196F3;
-}
 .nav-2{
     margin-top: 94px;
 }
 .main-nav-ul{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15px;
 }
-.main-nav-items{
-    width: 130px;
+.li1-a{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
     height: 38px;
-    border: 1px solid white;
     border-radius: 4px;
     background-color: #f5f4fa;
     margin-right: 8px;
@@ -89,42 +86,98 @@ body{
     align-items: center;
 }
 .li1-a{
-    color: #212121;
-    font-weight: 500;
-    font-size: 16px;
+    width: 73px;
+    margin-bottom: 15px;
+}
+.li1-a2{
+    width: 128px;
+    margin-bottom: 15px;
+}
+.li1-a3{
+    width: 145px;
+    margin-bottom: 15px;
+}
+.li1-a4{
+    width: 103px;
+}
+.li1-a5{
+    width: 130px;
+}
+.li1-a:hover{
+    background-color: #2196F3;
+    color: white;
 }
 footer{
-    width: 1600px;
-    height: 252px;
+    width: 480px;
+    height: 603px;
     background-color: #2F303A;
     padding-top: 60px;
 }
 .logo-f{
-    margin-left: 215px;
+    margin-top: 60px;
+    margin-left: 163px;
 }
 .web-1{
-    font-size: 26px;
+    font-size: 24px;
     color: #2196F3;
     font-family: 'Raleway', sans-serif;
 }
 .stuidio-1{
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     color: white;
+}
+.footer-h3{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.svg-image{
+    display: flex;
+    justify-content: center;
+}
+.img-ul-footer{
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+.abc-footer{
+    width: 44px;
+    height: 44px;
+    background-color:#757575;
+    border-radius: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.abc-footer:last-child{
+    margin-right: 0;
+}
+.abc-footer:hover{
+    background-color: #2196F3;
 }
 .ul-footer li:first-child{
     margin-top: 20px;
     color: white;
 }
 .ul-footer li{
-    margin: 9px 0 0 215px;
+    margin: 9px 0 0 -25px;
     color: #757575;
     font-weight: 400;
     font-size: 14px;
+    text-align: center;
 }
 .misto-footer{
     color: white;
     font-weight: 400;
     font-size: 14px;   
 }
+
