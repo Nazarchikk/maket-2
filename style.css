@@ -128,8 +128,7 @@ body{
     width: 100%;
     height: 2761px;
     background-color:#F5F4FA;
-    /* display: flex;
-    justify-content: center; */
+
 }
 .div-section3{
     display: flex;
@@ -222,7 +221,7 @@ body{
     margin-top: 30px;
 }
 .add{
-    width: 210px;
+    width: 180px;
     height: 90px;
     border: 2px solid #AFB1B8;
     border-radius: 5px;
