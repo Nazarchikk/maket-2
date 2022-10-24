@@ -23,7 +23,7 @@ body{
 .visuali_hidden{
     display: none;
 }
-@media screen and (max-width:768px){
+@media screen and (min-width: 480px) and (max-width:768px){
     .conteiner{
         display: flex;
         justify-content: space-between;
@@ -116,7 +116,7 @@ body{
         margin-right: auto;
     }
     .li-photo{
-        
+
     }
     .li-photo:last-child{
         margin-bottom: 60px;
