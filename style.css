@@ -681,7 +681,7 @@ body{
         background-color: #2196F3;
     }
 }
-@media screen and (min-width:1112px) and (max-width:1900px){
+@media screen and (min-width:1112px) and (max-width:2000px){
     h1,
     h2,
     h3,
@@ -713,6 +713,8 @@ body{
     }
     .page-body{
         height: 80px;
+        display: flex;
+        justify-content: space-between;
     }
     .logo{
         margin-left: 215px;
@@ -744,7 +746,6 @@ body{
         display: flex;
         font-size: 14px;
         margin-top: 32px;
-        margin-left: 309px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -776,6 +777,10 @@ body{
         text-align: center;
         padding-top: 200px;
     }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
     .section1 button{
         color: white;
         margin-top: 40px;
@@ -784,7 +789,10 @@ body{
         background-color: #2196F3;
         border: 1px solid #2196F3;
         border-radius: 4px;
-        margin-left: 700px;
+    }
+    .ul-section2{
+        display: flex;
+        justify-content: center;
     }
     .ul-section2 li{
         width: 270px;
@@ -813,9 +821,7 @@ body{
         font-weight: 400;
         font-size: 14px;
     }
-    .ul-section2:first-child{
-        margin-left: 215px;
-    }
+
     .section2 h2{
         margin-top: 94px;
         margin-bottom: 50px;
@@ -966,7 +972,7 @@ body{
         font-size: 14px;
         line-height: 16px;
         margin-left:516px;
-        margin-top: -19px;
+        margin-top: -120px;
     }
     .img-ul-footer{
         width: 20px;
@@ -996,6 +1002,9 @@ body{
     .ul-footer li:first-child{
         margin-top: -40px;
         color: white;
+    }
+    .ul-footer{
+        margin-top: 70px;
     }
     .ul-footer li{
         margin: 9px 0 0 215px;
