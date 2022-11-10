@@ -1,0 +1,18 @@
+.page-body{
+    height: 60px;
+    width: 100%;
+    @media screen and (min-width: 768px) and (max-width: 1112px){
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+    }
+    @media screen and (min-width:1112px) and (max-width:1600px){
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+} 
