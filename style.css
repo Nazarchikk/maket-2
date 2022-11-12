@@ -131,7 +131,6 @@ ul {
         width: 100%;
         height: 2761px;
         background-color:#F5F4FA;
-
     }
     .div-section3{
         display: flex;
@@ -148,7 +147,6 @@ ul {
         height: 622px;
         border: 1px solid white;
         background-color: white;
-        margin-left: 15px;
         margin-top: 30px;
     }
     .ul-section3 img{
@@ -222,6 +220,7 @@ ul {
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 30px;
+        width: 400px;
     }
     .add{
         width: 180px;
@@ -232,6 +231,8 @@ ul {
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
+    }
+    .add:nth-child(2n){
         margin-left: 30px;
     }
     .add:last-child{
@@ -317,7 +318,6 @@ ul {
         display: flex;
         justify-content: center;
     }
-
 }
 @media screen and (min-width: 768px) and (max-width: 1112px){
     .visuali_hidden2{
@@ -338,7 +338,7 @@ ul {
         width: 133.12px;
         height: 17.76px; 
         margin-left: 15px;
-        margin-top: 25px;
+        margin-top: 23px;
     }
     .web{
         font-size: 26px;
@@ -472,7 +472,6 @@ ul {
         width: 100%;
         height: 1285px;
         background-color:#F5F4FA;
-
     }
     .div-section3{
         display: flex;
@@ -552,7 +551,6 @@ ul {
     .img-ul:hover{
         fill: white;
     }
-
     .section4{
         height: 370px;
         width: 100%;
@@ -1011,5 +1009,4 @@ ul {
         font-weight: 400;
         font-size: 14px;   
     }
-
 }

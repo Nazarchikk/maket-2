@@ -1,0 +1,67 @@
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .section1{
+        height: 400px;
+        background: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url(./Header\ img.png);
+    }
+    .section2{
+        width: 100%;
+        height: 1114px;
+    }
+    .section3{
+        width: 100%;
+        height: 2761px;
+        background-color:#F5F4FA;
+    }
+    .section4{
+        height: 513px;
+        width: 100%;
+        background-color: white;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1111px){
+    .section1{
+        height: 400px;
+        background: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url(./Header\ img.png);
+    }
+    .section2{
+        width: 100%;
+        height: 627px;
+    }
+    .section3{
+        width: 100%;
+        height: 1285px;
+        background-color:#F5F4FA;
+    }
+    .section4{
+        height: 370px;
+        width: 100%;
+        background-color: white;
+    }
+}
+@media screen and (min-width: 1112px) and (max-width: 1600px){
+    .section1{
+        width: 100%;
+        height: 600px;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) , url(./Img\ копія.png);
+    }
+    .section2{
+        width: 100%;
+        height: 950px;
+    }
+    .section3{
+        width: 100%;
+        height: 708px;
+        background-color:#F5F4FA;
+    }
+    .section4{
+        height: 277px;
+        width: 100%;
+        background-color: white;
+    }
+}

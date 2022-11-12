@@ -1,0 +1,67 @@
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .section1 h1{
+        color: white;
+        font-weight: 900;
+        font-size: 26px;
+        text-align: center;
+        padding-top: 118px;
+    }
+    .section1 button{
+        color: white;
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        background-color: #2196F3;
+        border: 1px solid #2196F3;
+        border-radius: 4px;    
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1111px){
+    .section1 h1{
+        color: white;
+        font-weight: 900;
+        font-size: 26px;
+        text-align: center;
+        padding-top: 118px;
+    }
+    .section1 button{
+        color: white;
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        background-color: #2196F3;
+        border: 1px solid #2196F3;
+        border-radius: 4px;    
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media screen and (min-width:1112px) and (max-width:1600px){
+    .section1 h1{
+        color: white;
+        font-weight: 900;
+        font-size: 44px;
+        text-align: center;
+        padding-top: 200px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    .section1 button{
+        color: white;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        background-color: #2196F3;
+        border: 1px solid #2196F3;
+        border-radius: 4px;
+    }
+}

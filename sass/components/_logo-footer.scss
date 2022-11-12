@@ -1,14 +1,48 @@
-.logo-f{
-    margin-top: 60px;
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .logo-f{
+        margin-top: 60px;
+    }
+    .web-1{
+        font-size: 24px;
+        color: #2196F3;
+        font-family: 'Raleway', sans-serif;
+    }
+    .stuidio-1{
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        color: white;
+    }
 }
-.web-1{
-    font-size: 24px;
-    color: #2196F3;
-    font-family: 'Raleway', sans-serif;
+@media screen and (min-width: 768px) and (max-width: 1111px){
+    .logo-f{
+        margin-left: 125px;
+    }
+    .web-1{
+        font-size: 24px;
+        color: #2196F3;
+        font-family: 'Raleway', sans-serif;
+    }
+    .stuidio-1{
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 24px;
+        color: white;
+    }
 }
-.stuidio-1{
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    color: white;
+@media screen and (min-width:1112px) and (max-width:1600px){
+    .logo-f{
+        margin-left: 215px;
+    }
+    .web-1{
+        font-size: 26px;
+        color: #2196F3;
+        font-family: 'Raleway', sans-serif;
+    }
+    .stuidio-1{
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        color: white;
+    }
 }
