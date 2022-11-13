@@ -1,0 +1,61 @@
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .overflow{
+        width: 402px;
+        height: 168px;
+        padding: 63px 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff;
+        position: absolute;
+        bottom: 108px;
+        background-color: rgba(33, 150, 243, 0.9);
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    .li-photo:hover .overflow{
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1111px){
+    .overflow{
+        height: 170px;
+        padding: 63px 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff;
+        position: absolute;
+        bottom: 145px;
+        background-color: rgba(33, 150, 243, 0.9);
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    .li-photo:hover .overflow{
+        opacity: 1;
+    }
+}
+@media screen and (min-width: 1112px) and (max-width: 1600px){
+    .overflow{
+        height: 170px;
+        padding: 63px 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff;
+        position: absolute;
+        bottom: 145px;
+        background-color: rgba(33, 150, 243, 0.9);
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+    }
+    .li-photo:hover .overflow{
+        opacity: 1;
+    }
+}
